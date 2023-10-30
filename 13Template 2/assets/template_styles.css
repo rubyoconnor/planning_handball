@@ -45,14 +45,224 @@ footer{
     color: white;
 }
 
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
 
-.row{
-    background-color: var(--base-back);
+.column-2 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.column-3{
+    float: left;
+    width: 40%;
+}
+
+.reflect{
+    margin-top:25em;
 }
 
 
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.news_code{
+    margin-top:-30.7em;
+}
+
+.lines{
+    margin-top:8em;
+}
+
+.news-plan{
+    width:300px;
+    height:500px;
+}
+
+:root{
+    --base-back: rgb(150,150,150);
+    --black: rgb(0,0,0);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+.htp{
+    margin-top:2em;
+}
+
+.login-plan{
+    width:300px;
+}
+
+.header{
+    background-color: var(--base-back);
+}
+h1{
+    color:white;
+    text-align: left;
+}
+
+h2{
+    font-size:3em;
+}
+
+h3{
+    font-size:2em;
+}
+
+h4{
+    font-weight:200;
+
+}
+
+/* -- navigation --- */
+.navbar{
+    background-color:  var(--black);
+    border-bottom: 1px solid black;
+
+}
+
+.nav-item:hover{
+    background-color:var(--brand-green-pale);
+}
+
+.nav-link{
+    font-size: 1.5em;
+    color:var(--base-back);
+}
+.nav-link:hover{
+    color:white;
+}
+
+footer{
+    background-color: var(--base-back);
+    text-align: center;
+    padding: 1em 0 1em 0;
+    font-size: 2em;
+    color: white;
+}
+
+.img-fluid{
+    width:50%;
+    margin-left:2em;
+}
+
+.img-fluid-right{
+    width:46%;
+    float:right;
+    margin-left: 0em;
+    display:block;
+}
+
+.formpage{
+    width:400px;
+    height:400px;
+}
+
+.formpage-2{
+    width:500px;
+    height:400px;
+}
+
+.formpage-3{
+    width:515px;
+    height:400px;
+}
+.formpage-4{
+    width:600px;
+    height:500px;
+}
+
+.formpage-5{
+    width:450px;
+    height:400px;
+}
+
+.session{
+    width:470px;
+    height:470px;
+}
+
+.draw{
+    width:700px;
+    height:470px;
+    float:right;
+    margin-right:8em;
+}
+
+.draw-2{
+    width:470px;
+    height:470px;
+    margin-left:8em;
+}
+
+.draw-3{
+    width:600px;
+    height:470px;
+    margin-left:1em;
+}
+
+.draw-4{
+    width:800px;
+    height:470px;
+    float:right;
+    margin-right:1em;
+}
+
+.draw-5{
+    width:700px;
+    height:470px;
+    margin-left:1em;
+}
+
+.draw-6{
+    width:700px;
+    height:350px;
+    float:right;
+    margin-right:1em;
+}
+
+.drawpage{
+    width:470px;
+    height:350px;
+}
+
+.signup{
+    width:530px;
+    height:400px;
+    margin-left:3em;
+}
 
 
+.member{
+    width:800px;
+    height:400px;
+    float:right;
+    margin-right:3em;
+}
+
+.sprint8plan{
+    width:500px;
+
+}
+
+.gamedate{
+    width:500px;
+    height:350px;
+}
 
 video{
     max-height: 300px;
@@ -60,3 +270,4 @@ video{
     margin:auto;
     margin-bottom: 1em;
 }
+
